@@ -1,20 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<title>News Page</title>
-<style>
-body {
-    background: #ffffff no-repeat;
-    color: #000000;
-    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Geneva, Verdana, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minecraft Launcher News</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        .news-item {
+            border-bottom: 1px solid #ccc;
+            padding: 10px 0;
+        }
+        .news-item:last-child {
+            border-bottom: none;
+        }
+        .news-title {
+            font-size: 1.5em;
+            margin: 0;
+        }
+        .news-date {
+            font-size: 0.9em;
+            color: #999;
+        }
+        .news-description {
+            margin: 10px 0 0;
+        }
+        body {
+        background-image: url("wallpaper.png");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        }
+    </style>
 </head>
 <body>
-<!-- Note: Java's web renderer is pretty bad so you cannot get too fancy -->
-<h1>News</h1>
-<p>Recently, two new modpacks were added.</p>
+    <div class="container">
+        <h1>Launcher News</h1>
+        <div class="news-item">
+            <div class="news-title">"boated" is out now!</div>
+            <div class="news-date">July 2024</div>
+            <div class="news-description">
+                You're using the official boated launcher. For more information, visit the <a href="https://boated.pages.dev/">official wiki here</a>.
+            </div>
+        </div>
+        <br>
+        <div class="news-item">
+            <div class="news-title">Join our Discord!</div>
+            <div class="news-date">July 2024</div>
+            <div class="news-description">
+                <a href="https://discord.gg/SvYrGYJHRx">https://discord.gg/SvYrGYJHRx</a>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
